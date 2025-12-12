@@ -16,3 +16,8 @@ A simple command-line Expense Tracker built using Python and JSON storage.
 - Functions & Dictionaries
 
 ##  How to Run
+  Make sure you have Python installed.
+1. Open a terminal (Command Prompt / PowerShell / Terminal)
+2. Navigate to the project folder:
+3. Run the script:
+   
