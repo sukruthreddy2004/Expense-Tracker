@@ -8,7 +8,7 @@ A simple command-line Expense Tracker built using Python and JSON storage.
 - View total money spent  
 - View spending grouped by category  
 - Data stored in clean JSON format  
-- Beginner-friendly CLI interface  
+- Beginner friendly CLI interface  
 
 ## Technologies Used
 - Python (Core)
@@ -19,5 +19,5 @@ A simple command-line Expense Tracker built using Python and JSON storage.
   Make sure you have Python installed.
 1. Open a terminal (Command Prompt / PowerShell / Terminal)
 2. Navigate to the project folder:
-3. Run the script:
+3. Run the script
    
