@@ -15,6 +15,7 @@ def save_data(data):
 
 def add_expense():
     category = input("Enter category: ")
+    try:
     amount = float(input("Enter amount: "))
     if amount <= 0:
         print("\nAmount must be greater than zero.\n")
