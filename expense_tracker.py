@@ -84,7 +84,7 @@ def menu():
             print("\nGoodbye!\n")
             break
         else:
-            print("\nInvalid choice. Try again.\n")
+            print("\nInvalid. Try again.\n")
 
 if __name__ == "__main__":
     menu()
