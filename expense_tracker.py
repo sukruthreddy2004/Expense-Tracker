@@ -29,7 +29,7 @@ def add_expense():
     data["expenses"].append({"category": category, "amount": amount})
 
     save_data(data)
-    print("\nExpense added successfully!\n")
+    print("\nExpense saved\n")
 
 
 def view_expenses():
@@ -63,7 +63,7 @@ def view_by_category():
 
 def menu():
     while True:
-        print("====== EXPENSE TRACKER ======")
+        print("----- EXPENSE TRACKER -------")
         print("1. Add Expense")
         print("2. View All Expenses")
         print("3. View Total Spent")
