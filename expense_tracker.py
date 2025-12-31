@@ -16,6 +16,13 @@ def save_data(data):
 def add_expense():
     category = input("Enter category: ")
     amount = float(input("Enter amount: "))
+    if amount <= 0:
+        print("\nAmount must be greater than zero.\n")
+        return
+except ValueError:
+    print("\nInvalid amount. Please enter a number.\n")
+    return
+
     
     data = load_data()
     data["expenses"].append({"category": category, "amount": amount})
